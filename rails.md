@@ -5,9 +5,13 @@ Answer the following questions. First, without external resources. Challenge you
 
 1. MVC (Model View Controller) is a pattern for the architecture of a software program. Give a brief description of each component and describe how Ruby on Rails handles MVC.
 
-  Your answer:
+  Your answer: Model is the framework of the data. View is what is seen on the page by the users. Controller is how to data is sent to and from the page.
 
-  Researched answer:
+  Researched answer: The browser (on the client) sends a request for a page to the controller on the server.
+  
+The controller retrieves the data it needs from the model in order to respond to the request.
+The controller gives the retrieved data to the view.
+The view is rendered and sent back to the client for the browser to display.
 
 
 
@@ -92,8 +96,8 @@ get '/main/game/guess' => "main#main"
 - [Rails for Zombies](http://railsforzombies.org)
 - [Rails Guides](http://guides.rubyonrails.org/getting_started.html)
 
-1.
+1. Authenticate
 
-2.
+2. You can learn how Rails works by looking at the generated code.
 
-3.
+3. Scaffolding

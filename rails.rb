@@ -58,7 +58,7 @@ end
 
 pluralizer(1, 'dog')
 pluralizer(5, 'cat')
-pluralizer(17, 'wabbits')
+pluralizer(17, 'wabbit')
 
 
 
